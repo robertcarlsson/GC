@@ -18,7 +18,11 @@ list: linked_list.c linked_list.h
 
 
 testyxan:
-	ssh roca5461@yxan.it.uu.se "cd ~/project/GC;git pull;make main;make clean"
+	ssh roca5461@yxan.it.uu.se "cd ~/project/GC;git pull;make main;./main;make clean"
 
 clean:
-	rm *.o *.c~ *.h~ main 
+	rm *.o
+	rm main 
+	rm *.c~
+	rm *.h~
+
