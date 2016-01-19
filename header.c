@@ -54,6 +54,7 @@ void *get_header_value(void *ptr_object)
     //Ska aldrig komma hit
     assert(false);
   }
+  return NULL;
 }
 
 
