@@ -22,7 +22,9 @@ testyxan:
 
 clean:
 	rm *.o
-	rm main 
+	rm main
+
+cleanex:
 	rm *.c~
 	rm *.h~
 
