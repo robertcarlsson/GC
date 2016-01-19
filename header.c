@@ -33,6 +33,11 @@ void set_header_bitvector(void *ptr_object, uintptr_t bitvector)
 }
 
 
+char get_header_mask(void *ptr_object)
+{
+  return *(char *)get_header(ptr_object) % 4; 
+}
+
 //TODO: Remake so it takes away the mask of the header
 void *get_header_value(void *ptr_object)
 {
@@ -51,11 +56,6 @@ void *get_header_value(void *ptr_object)
   }
 }
 
-char get_header_mask(void *ptr_object)
-{
-  return *(char *)get_header(ptr_object) % 4; 
-}
-
 
 
 
@@ -72,7 +72,7 @@ bool has_forward(void *ptr_object)
 void *get_header_forward(void *ptr_object)
 {
     //FORWARD IS MASKED WITH __01 SO DECREASE 1 to __00
-  return get_header_value(void *ptr_object);
+  return get_header_value(ptr_object);
 }
 
 
