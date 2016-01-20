@@ -1,10 +1,10 @@
 GCC=gcc
-FLAGS=-g -ggdb -Wall -Werror -std=c11
+FLAGS=-g -ggdb -Wall -Werror -std=c99
 
 
 main: header bitvector list padding main.c
 	$(GCC) $(FLAGS) linked_list.o header.o bitvector.o padding.o main.c -o main
-	./main
+
 
 padding: padding.c padding.h
 	$(GCC) $(FLAGS) padding.c -c
