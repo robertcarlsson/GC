@@ -14,3 +14,10 @@ typedef struct int_short_char{
   short s;
   char c;
 } isc;
+
+typedef struct short_in_char{
+  //void *p;
+  short s;
+  int i;
+  char c;
+} sic;
