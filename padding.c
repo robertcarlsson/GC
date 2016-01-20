@@ -9,7 +9,7 @@ void print_struct_size()
   printf("\n\nSTRUCTS: ");
   printf("\nSize of pisc: %d", (int)sizeof(pisc));
   printf("\nSize of isc: %d", (int)sizeof(isc));
-
+  printf("\nSize of sic: %d", (int)sizeof(sic));
 }
 
 
