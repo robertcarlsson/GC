@@ -8,8 +8,11 @@ void print_struct_size()
 {
   printf("\n\nSTRUCTS: ");
   printf("\nSize of pisc: %d", (int)sizeof(pisc));
+  printf("\nSize of disc: %d", (int)sizeof(disc));
   printf("\nSize of isc: %d", (int)sizeof(isc));
   printf("\nSize of sic: %d", (int)sizeof(sic));
+  printf("\nSize of cccc: %d", (int)sizeof(cccc));
+  printf("\nSize of ccccc: %d", (int)sizeof(ccccc));
 }
 
 
