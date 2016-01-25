@@ -14,6 +14,8 @@ void print_struct_size()
   printf("\nSize of cccc: %d", (int)sizeof(cccc));
   printf("\nSize of ccccc: %d", (int)sizeof(ccccc));
   printf("\n");
+  printf("\nSize of iscp: %d", (int)sizeof(iscp));
+  printf("\nSize of sicp: %d", (int)sizeof(sicp));
   printf("\nSize of iscd: %d", (int)sizeof(iscd));
   printf("\nSize of sicd: %d", (int)sizeof(sicd));
   printf("\nSize of sicDsic: %d", (int)sizeof(sicdsic));

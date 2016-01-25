@@ -26,6 +26,22 @@ typedef struct short_int_char{
   char c;
 } sic;
 
+typedef struct short_int_char_pointer{
+  short s;
+  int i;
+  char c;
+  void* p;
+} sicp;
+
+typedef struct int_short_char_pointer{
+  int i;
+  short s;
+  char c;
+  void *p;
+} iscp;
+
+
+
 typedef struct short_int_char_double{
   short s;
   int i;
